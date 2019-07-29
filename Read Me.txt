@@ -1,0 +1,63 @@
+-------------------
+Softwares required
+-------------------
+1. Anaconda package (Jupyter Notebook)
+2. Pycharm
+3. Xampp
+4. Notepad ++
+
+--------------------------
+Method to use the software
+--------------------------
+1. Run "project_api.py" and "home_prediction.py" in pycharm
+2. open xampp and run Apache and MySQL
+3. open localhost in browser and access the "home.php" page.
+
+---------------------------
+Front End folder:
+----------------------------
+
+1. It has the front end HTML and PHP code. 
+2. Home.php is the first page
+3. Home_prediction page- You can access the prediction directly from the home page.
+4. To access the software First signup as the user and create username and password.
+    Login as the user.
+5. Fill in all the details of the patients and access the parameters page while has the predictions.
+
+6. "difficulties_in_airway.sql" is the database file. You have open the xampp and import this file to get the database.
+
+
+You have to CONNECT TO INTERNET while using the front end.(some styling files are online)
+
+
+
+-----------------------------
+Connection Model to Html
+----------------------------
+
+This folder contains the backend code
+
+1.Download pycharm
+
+2. Run the "project_api.py" and "home_prediction.py". You have to do this before accesing the prediction page in the front end
+
+3. In "Ml model in flask(1).py"  the Machine learning model for Mask ventiation is trained and stored in a file name mask_ventil.pkl
+
+4. Im "mlIntub model.py" the Intubation model is trained and stored in a file named "intubation.pkl" 
+
+you DONT need to run "Ml model in flask(1).py" and "mlIntub model.py" for running the software
+
+----------------------------
+Experiments in Jupyter Notebook
+------------------------------
+1. "Mask Ventilation.csv" is the Mask ventilation dataset
+
+2. "Mask ventilation dataset_formatted.csv" is the formatted dataset. In this the values are converted into interger format. For experimentation this file can be directly used as dataset. 
+
+3. "Mask ventilation data processing and model creation.ipynb" has the entire code. 
+	In the begining the libraries are loaded.
+	The values of dataset are converted into integer format
+	Graphs are plotted
+	Machine learning algorithms are employed
+
+4. In "Experiments for entire dataset.ipynb" the formatted dataset is used for experimentation. 
